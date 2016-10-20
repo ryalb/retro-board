@@ -18,9 +18,9 @@ export default {
         noContent: '(This post has no content)'
     },
     PostBoard: {
-        notWellQuestion: 'What could be improved?',
-        wellQuestion: 'What went well?',
-        ideasQuestion: 'A brilliant idea to share?'
+        notWellQuestion: 'Stop doing',
+        wellQuestion: 'Continue doing',
+        ideasQuestion: 'Start doing'
     },
     Clients: {
         header: 'Kindly joining us right now:'
