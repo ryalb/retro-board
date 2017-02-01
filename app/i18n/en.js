@@ -19,7 +19,7 @@ export default {
     },
     PostBoard: {
         notWellQuestion: 'Stop doing',
-        wellQuestion: 'Continue doing',
+        wellQuestion: 'Keep doing',
         ideasQuestion: 'Start doing'
     },
     Clients: {
@@ -57,7 +57,7 @@ export default {
         dialog: {
             title: 'Invite people to your retrospective',
             text: 'To invite people to your retrospected session, simply send them ' +
-                  'the following URL',
+                'the following URL',
             copyButton: 'Copy URL to Clipboard'
         }
     }

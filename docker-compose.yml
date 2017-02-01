@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+
+  retro-board:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    image: retro-board
+    container_name: retro-board
+    working_dir: /usr/src/app
+    ports:
+      - "0.0.0.0:8080:8080"
+    volumes:
+    #   - ${PWD}:/usr/src/app
+      - ${HOME}/.npm:/home/node/.npm
